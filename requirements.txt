@@ -1,0 +1,8 @@
+torch>=2.4
+numpy>=1.24
+protobuf>=4.25
+tensorboard>=2.16
+pyyaml>=6.0
+# Optional: FP8 training on Blackwell/Hopper/Ada (training.fp8.enabled).
+# Install a torchao build matching your torch version, e.g. `pip install torchao`.
+# torchao>=0.8
